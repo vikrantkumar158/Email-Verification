@@ -1,0 +1,34 @@
+{
+  "name": "emailotp",
+  "version": "1.0.0",
+  "description": "Get your email confirmed by OTP. Just a begineer level code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+     "node": "10.15.2",
+     "npm": "6.13.7"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikrantkumar158/Email-Verification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "express": "^4.16.4",
+    "express-redirect": "^1.2.2",
+    "mongoose": "^5.5.2",
+    "init": "^0.1.2",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^2.0.2",
+    "otp-generator": "^1.1.0"
+  }
+}
